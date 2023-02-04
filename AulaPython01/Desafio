@@ -1,0 +1,16 @@
+#declaração de variáveis
+var1 = int(input("Digite o primeiro número: "))
+var2 = int(input("Digite o segundo número: "))
+var3 = int(input("Digite o terceiro número: "))
+
+#operações de if
+if var1 == var2 and var2 == var3:
+    print("Os números são identicos") 
+
+elif var1 > var2 and var1 > var3:
+    print("O número ", var1, " é maior")
+
+elif var2 > var1 and var2 > var3: 
+        print("O número ",var2," é maior") 
+
+else: print("O número ",var3," é maior")  
